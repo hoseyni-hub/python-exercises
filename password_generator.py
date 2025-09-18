@@ -1,17 +1,11 @@
 import random
 import string
 
-def generate_password(length=12):
-    chars = string.ascii_letters + string.digits + string.punctuation
-    return ''.join(random.choice(chars) for _ in range(length))
+print("🔑 Password Generator")
 
-while True:
-    try:
-        length = int(input("Enter password length (0 to quit): "))
-    except ValueError:
-        print("Please enter a valid number.")
-        continue
+length = int(input("Enter password length: "))
 
-    if length == 0:
-        break
-    print("Generated password:", generate_password(length))
+chars = string.ascii_letters + string.digits + string.punctuation
+password = "".join(random.choice(chars) for _ in range(length))
+
+print(f"Your generated password: {password}")
