@@ -1,4 +1,3 @@
-# Week 6 - Day 2 - Practice 1
 # Palindrome Checker
 
 def is_palindrome(word):
