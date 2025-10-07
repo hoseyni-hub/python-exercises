@@ -1,4 +1,4 @@
-# week6_exercise6_sum_of_digits.py
+
 # This program calculates the sum of digits of a number
 
 def sum_of_digits(n):
