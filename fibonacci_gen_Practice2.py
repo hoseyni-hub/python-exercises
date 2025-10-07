@@ -1,4 +1,3 @@
-# Week 6 - Day 2 - Practice 2
 # Fibonacci Sequence Generator
 
 def fibonacci(n):
