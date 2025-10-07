@@ -1,4 +1,3 @@
-# Week 6 - Day 2 - Practice 3
 # Word Counter in a sentence
 
 def word_count(sentence):
